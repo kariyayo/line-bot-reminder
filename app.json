@@ -1,0 +1,24 @@
+{
+  "name": "LINE BOT Reminder",
+  "description": "A simple reminder by LINE BOT",
+  "repository": "https://github.com/bati11/line-bot-reminder",
+  "keywords": ["line", "bot"],
+  "env": {
+    "LINE_CHANNEL_ID": {
+      "description": "Channel ID",
+      "required": true
+    },
+    "LINE_CHANNEL_SECRET": {
+      "description": "Channel secret",
+      "required": true
+    },
+    "LINE_CHANNEL_MID": {
+      "description": "Channel MID",
+      "required": true
+    }
+  },
+  "addons": [
+    "fixie:tricycle",
+    "mongolab:sandbox"
+  ]
+}
